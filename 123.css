@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.gora h1 span {
+    color: green
+}
+
+.gora {
+    height: 5vh;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.srodek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-block: 30px;
+}
+
+.guziki {
+    display: flex;
+    margin-top: 30px;
+}
+
+.guziki button {
+    background: green;
+    border: 0;
+    color: #fff;
+    margin-inline: 10px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+
+.dol {
+    height: 5vh;
+    text-align: center;
+}
